@@ -1,0 +1,17 @@
+Hoisting Topic:
+Hoisting is something when the declared variable comes on top irrespective of its place in the code.
+
+
+hoistingdone(){
+    console.log(i);
+    var i =10;
+}
+hoistingdone();
+
+is similar to the below code,
+
+hoistingdone(){
+    var i =10;
+    console.log(i);
+}
+hoistingdone();
