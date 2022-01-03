@@ -15,3 +15,29 @@ hoistingdone(){
     console.log(i);
 }
 hoistingdone();
+
+
+Function expression:
+if the function you made is annonyms and don't gve any name, then the name it pick is the name of var you are assigning it.
+
+for eg:
+var function2 = function (n){
+    var ans=1;
+    for(var i =1; i<5; i++){
+        ans = ans*1;
+    }
+    return ans;
+};
+
+console.log(factorial2(n));
+
+Here the output on console will be:
+
+f factorial2(n){
+    var ans=1;
+    for(var i =1; i<5; i++){
+        ans = ans*1;
+    }
+    return ans;
+}
+}
