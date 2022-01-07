@@ -15,7 +15,7 @@ hoistingdone(){
     console.log(i);
 }
 hoistingdone();
-
+==========================================================================
 
 Function expression:
 if the function you made is annonyms and don't gve any name, then the name it pick is the name of var you are assigning it.
@@ -41,3 +41,26 @@ f factorial2(n){
     return ans;
 }
 }
+
+==================================================================
+
+iteration over arrays:
+
+suppose there is an array named: arr = [2,3,4,5,6,7];
+and we are creating a function called print,
+function print(i){
+    console.log(i)
+}
+
+Now suppose you want to print that one by one... there are many steps but here I will be talking about mainly 2 steps;
+1st one:
+for(var i=0;i<arr.length;i++){
+    print(arr[i])
+}
+
+2nd one: where we can get the result without complex 1st step is, foreach method.
+arr.forEach(print);
+
+That's it...
+
+=======================================================================
