@@ -61,6 +61,4 @@ for(var i=0;i<arr.length;i++){
 2nd one: where we can get the result without complex 1st step is, foreach method.
 arr.forEach(print);
 
-That's it...
-
 =======================================================================
