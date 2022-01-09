@@ -62,3 +62,28 @@ for(var i=0;i<arr.length;i++){
 arr.forEach(print);
 
 =======================================================================
+
+How to travel over keys using 3 different methods?
+
+for eg:
+
+var Student = {
+    "name"="Shivam",
+    roll=11,
+    marks=90
+}
+
+
+1st method:
+var keys = Object.keys(Student);
+
+2nd method:
+var keys = Object.getOwnPropertyNames(Student);
+
+3rd method:
+
+for(var prop in Student){
+    console.log(prop);
+}
+
+====================================================================
