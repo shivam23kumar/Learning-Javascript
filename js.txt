@@ -68,9 +68,9 @@ How to travel over keys using 3 different methods?
 for eg:
 
 var Student = {
-    "name"="Shivam",
-    roll=11,
-    marks=90
+    "name":"Shivam",
+    roll:11,
+    marks:90
 }
 
 
