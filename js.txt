@@ -120,7 +120,12 @@ var Stud = Object.assign({}, Student);
 Now any change made in Child will not get reflected on Student variable.
 
 
+In array, you can also use map method to create a var with different memory place,
 
+arr = [2,3,4];
+
+by using map,
+var arr2 = arr.map(el => el);
 
 
 
