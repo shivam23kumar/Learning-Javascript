@@ -87,3 +87,16 @@ for(var prop in Student){
 }
 
 ====================================================================
+
+
+Pass by value and pass by reference:
+
+obj and arrays are pass by reference where as any primitive data type is pass by value.
+
+=====================================================================
+
+
+
+
+
+========================================================================
