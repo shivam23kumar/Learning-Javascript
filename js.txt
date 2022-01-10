@@ -95,6 +95,31 @@ obj and arrays are pass by reference where as any primitive data type is pass by
 
 =====================================================================
 
+Spread Operator:
+
+var Student = {
+    "name":"Shivam",
+    roll:11,
+    marks:90
+}
+
+var Child = Student;
+
+in this case child is also refering to the var Student, and any change in either of them create make change in both.
+But by using spread operator you can create a new memory place for Child.
+
+Instead of this,
+var Child = Student;
+Just write,
+var Child = {...Student};
+
+Or other way is there by assigning,
+
+var Stud = Object.assign({}, Student);
+
+Now any change made in Child will not get reflected on Student variable.
+
+
 
 
 
