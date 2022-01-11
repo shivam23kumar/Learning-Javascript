@@ -124,8 +124,7 @@ In array, you can also use map method to create a var with different memory plac
 
 arr = [2,3,4];
 
-by using map,
-var arr2 = arr.map(el => el);
+
 
 
 
