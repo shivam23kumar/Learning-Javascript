@@ -161,3 +161,13 @@ abc(10, 20);
 This code will produce an error - 'SyntaxError: duplicate formal argument a'.
 
 ===============================================================================
+
+Difference between replace and assign:
+
+The replace() removes the current document from the browsing history before 
+loading the new document.The difference between assign method and replace(), 
+is that replace() removes the URL of the current document from the document history,
+ meaning that it is not possible to use the “back” button to navigate back to the
+original document.
+
+For example, in console type window.location.replace("https://www.wikipedia.org");
