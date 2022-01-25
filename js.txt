@@ -171,3 +171,35 @@ is that replace() removes the URL of the current document from the document hist
 original document.
 
 For example, in console type window.location.replace("https://www.wikipedia.org");
+
+==================================================================================
+
+
+function and function called:
+
+suppose there is a function called test(),
+then whenever test is written that means it is that function but test()-this means function called. 
+
+
+=====================================================================================
+
+IIFE - Immediate invoked function expression
+eg:
+
+function print(){
+    var name = "Shivam";
+    console.log(name);
+}
+
+print();
+
+In IIFE, this can be written as:
+
+(function(){
+    var name = "Shivam";
+    console.log(name);
+})();
+
+that's it
+
+=====================================================================================
