@@ -202,4 +202,10 @@ In IIFE, this can be written as:
 
 that's it
 
+Also we can use let instead of IIFE, eg:
+{
+    let name = "Shivam";
+    console.log(name);
+}
+
 =====================================================================================
