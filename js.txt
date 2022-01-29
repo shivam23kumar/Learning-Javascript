@@ -229,3 +229,9 @@ shows how closure is created аnd used.
 
 
 ================================================================================
+
+In JavaScript, what is a prototype?
+
+By definition, a prototype allows two objects to share something common. In other words, these prototypes give objects their properties.
+
+A central repository for all secrets...
