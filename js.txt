@@ -244,4 +244,22 @@ Event loop:
 Event loop basicalyy consists of (call stack + task queue). 
 callback function waits in task queue for empty stack position at top, the moment stack is empty dequeue from tq happen. And it comes on top of stack.
 
-=====================================================================================
+
+if promise and timeout both are there then promise task goes to micro-task queue and when stack is empty then micro-task will deque first, even if 1000 tasks are there in micro-task then also micro-task will get executed first.
+
+"""
+function getData(){
+    return Promise.resolve('some data');
+}
+async function abc(){
+    const data = await getData(); //await will make suspend the function, in bg will wait getData() to get completed. Till then JS will move to sync code.
+    console.log(data);
+}
+abc();
+cosole.log('1');
+"""
+
+Output will be:
+1
+some data
+========================================================================================
