@@ -244,6 +244,7 @@ Event loop:
 Event loop basicalyy consists of (call stack + task queue). 
 callback function waits in task queue for empty stack position at top, the moment stack is empty dequeue from tq happen. And it comes on top of stack.
 
+The Promise.race() will return the first resolved promise.
 
 if promise and timeout both are there then promise task goes to micro-task queue and when stack is empty then micro-task will deque first, even if 1000 tasks are there in micro-task then also micro-task will get executed first.
 
