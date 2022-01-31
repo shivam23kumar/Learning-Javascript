@@ -1,6 +1,6 @@
 Hoisting Topic:
 Hoisting is something when the declared variable comes on top irrespective of its place in the code.
-
+Classes can't be hoisted but normal function can be hoisted
 
 hoistingdone(){
     console.log(i);
@@ -238,3 +238,10 @@ A central repository for all secrets...
 
 
 ====================================================================================
+
+Event loop:
+
+Event loop basicalyy consists of (call stack + task queue). 
+callback function waits in task queue for empty stack position at top, the moment stack is empty dequeue from tq happen. And it comes on top of stack.
+
+=====================================================================================
