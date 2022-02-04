@@ -70,6 +70,8 @@ it represents the logical structure of the page.
 
 And JS uses DOM to manipulate the web page.
 
+=============================================================================================
+
 How to travel over keys using 3 different methods?
 
 for eg:
